@@ -8,16 +8,7 @@
  * @author     Christopher Lewis <lewsid@lewsid.com>
  */
 
-class ApiController extends Dinkly
+class ApiController extends BaseApiController
 {
-	/**
-	 * Default Constructor
-	 * 
-	 * @return bool: always returns true on successful construction of view
-	 * 
-	 */
-	public function __construct()
-	{
-		return true;
-	}
+	//Put overrides here...
 }
